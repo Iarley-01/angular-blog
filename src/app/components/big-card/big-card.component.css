@@ -10,4 +10,10 @@
 
 .big-card-title > h1 {
   font-size: 20px;
+  margin-top: 15px;
+}
+
+.big-card-description > p {
+  color: grey;
+  margin-top: 10px;
 }
