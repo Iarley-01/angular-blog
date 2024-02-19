@@ -10,14 +10,17 @@
   justify-content: flex-start;
 }
 
-.big-card-title > h1 {
+.big-card-title > a {
   font-size: 20px;
   margin-top: 15px;
 }
 
-.big-card-description > p {
-  color: grey;
+.big-card-description {
   margin-top: 10px;
+}
+
+.big-card-description > p > a {
+  color: grey;
 }
 
 .big-card-photo > img {
