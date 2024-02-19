@@ -1,6 +1,8 @@
 .container-big-card {
   width: 400px;
   height: 600px;
+  margin-left: 10px;
+  margin-right: 10px;
   
   display: flex;
   flex-direction: column;
@@ -16,4 +18,9 @@
 .big-card-description > p {
   color: grey;
   margin-top: 10px;
+}
+
+.big-card-photo > img {
+  width: 100%;
+  min-width: 400px;
 }
