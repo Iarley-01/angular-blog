@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-big-card',
@@ -8,5 +8,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./big-card.component.css', './big-card.responsive.component.css']
 })
 export class BigCardComponent {
-
+  photoCover:string = "";
+  cardTitle:string = "";
+  cardDescription:string = "";
+  
+  constructor() {}
+  
+  ngOnInit(): void {
+    
+  }
 }
