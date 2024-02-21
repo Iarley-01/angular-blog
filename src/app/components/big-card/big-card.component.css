@@ -3,7 +3,6 @@
   height: 600px;
   margin-left: 10px;
   margin-right: 10px;
-  
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -16,14 +15,22 @@
 }
 
 .big-card-description {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   margin-top: 10px;
+  width: 100%;
 }
 
 .big-card-description > p > a {
   color: grey;
 }
 
+.big-card-photo {
+  width: 100%;
+}
+
 .big-card-photo > img {
   width: 100%;
-  min-width: 400px;
+  max-width: 400px;
 }
