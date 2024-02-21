@@ -12,5 +12,5 @@ import { MenuBarComponent } from '../../components/menu-bar/menu-bar.component';
   styleUrls: ['./home.component.css', './home.responsive.component.css']
 })
 export class HomeComponent {
-
+  
 }
